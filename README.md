@@ -33,3 +33,7 @@ main();
 + tsc —init
 + npm i eslint —save-dev
 + eslint --init (ou npx eslint --init)
+
+## Bibliotecas utilizadas
+(Cheerio)[https://www.npmjs.com/package/cheerio]
+(Axios)[https://www.npmjs.com/package/axios]
