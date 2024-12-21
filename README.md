@@ -37,3 +37,6 @@ main();
 ## Bibliotecas utilizadas
 (Cheerio)[https://www.npmjs.com/package/cheerio]
 (Axios)[https://www.npmjs.com/package/axios]
+
+## Site para fazer web scrapper
+(gshow.globo.com)[https://gshow.globo.com/cultura-pop/]
