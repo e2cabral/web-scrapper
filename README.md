@@ -19,16 +19,16 @@ Aqui vão algumas das recomendações obrigatórias sobre o projeto.
 + npm init -y
 + npm i typescript
 + npm i ts-node-dev —save-dev
-+ Criar arquivo `main.ts` com o seguinte conteúdo:
++ Criar arquivo `app.ts` com o seguinte conteúdo:
 ```ts
-const main = () => {
+const app = () => {
   console.log('Hello World');
 }
 
-main();
+app();
 ```
 + Adicionar ao package.json
-`"scripts": {  "start:dev": "tsnd --ignore-watch /node_modules --respawn --transpile-only src/main.ts"}`
+`"scripts": {  "start:dev": "tsnd --ignore-watch /node_modules --respawn --transpile-only src/app.ts"}`
 + echo "20" > .nvmrc
 + tsc —init
 + npm i eslint —save-dev
@@ -39,4 +39,4 @@ main();
 (Axios)[https://www.npmjs.com/package/axios]
 
 ## Site para fazer web scrapper
-(gshow.globo.com)[https://gshow.globo.com/cultura-pop/]
+(CNN Brasil)[https://www.cnnbrasil.com.br]
