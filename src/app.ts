@@ -1,8 +1,8 @@
-import axios from 'axios';
 import * as cheerio from 'cheerio';
+import {httpClient, URL} from "./infra/http";
 
-const main = async () => {
-  const response = await axios.get('https://www.cnnbrasil.com.br/economia/');
+const app = async () => {
+  const response = await httpClient(URL.cnnBrasil).get('/economia');
 
   const titles = [];
   const imgs = [];
@@ -21,4 +21,4 @@ const main = async () => {
   console.log('#### IMGS:', imgs);
 }
 
-main().then();
+app().then();
